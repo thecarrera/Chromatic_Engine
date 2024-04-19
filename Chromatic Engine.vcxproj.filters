@@ -9,9 +9,132 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{bb46c559-271c-4857-9a64-2f4f9c4d88ab}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resources\Utility">
+      <UniqueIdentifier>{5cf5d8b7-2f54-4a5e-8f30-2707db44ed08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Utility\Libraries">
+      <UniqueIdentifier>{96a895b9-1c80-45d9-9094-6fd9fba994c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Utility\Libraries\Threading Engine">
+      <UniqueIdentifier>{cbf8d118-08b8-4577-8e26-4fa829eff73e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Utility\Libraries\Threading Engine\Interface">
+      <UniqueIdentifier>{4e62e40a-529f-4be6-8a9a-0b0955cc9df3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Utility\Libraries\Threading Engine\Window">
+      <UniqueIdentifier>{31c033ff-1841-4598-9cb2-9d4c9b020d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Utility\Libraries\Threading Engine\Core">
+      <UniqueIdentifier>{63dfaae1-8a08-4df9-a9b3-515d57982802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Rendering">
+      <UniqueIdentifier>{59fc2d10-20fd-4e73-a7fb-11f3dbcf13da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Rendering\Libraries">
+      <UniqueIdentifier>{75bfba15-3c07-452a-becf-8e9709b6b304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Rendering\Libraries\Viewport Engine">
+      <UniqueIdentifier>{15a8a6cf-ac93-4005-9be6-7960a3e32859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Rendering\Libraries\Shader Engine">
+      <UniqueIdentifier>{53b241f8-c45a-4f02-87fd-15626527e1a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Rendering\Libraries\Graphics Engine">
+      <UniqueIdentifier>{09e83b97-3a78-4c62-9270-9ce1895e6137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Rendering\Rendering Engine">
+      <UniqueIdentifier>{9b2251ed-e182-4345-8832-656dc6ef9d78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Utility\Utility Manager">
+      <UniqueIdentifier>{de2f5b93-e5ed-4b55-af6a-f085a97d6fa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Rendering\Rendering Engine\Core">
+      <UniqueIdentifier>{b5ef6e12-c984-40bc-bbcd-242f41fc7f41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Rendering\Rendering Engine\Interface">
+      <UniqueIdentifier>{864a05f6-491b-435b-948a-e9fea6a2698c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Rendering\Rendering Engine\Window">
+      <UniqueIdentifier>{41cfdea3-e93c-472a-9eea-eea2f03b2f46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Game">
+      <UniqueIdentifier>{9654cf11-c9d2-4223-8a81-23b0f9aa4fe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Audio">
+      <UniqueIdentifier>{9b17b589-84f9-4918-a3df-c79c383586ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\IO">
+      <UniqueIdentifier>{81f65c41-7495-4028-b2bb-3b3aec4ab2b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Core">
+      <UniqueIdentifier>{b8876c71-7a84-438e-8d71-c7bfd4835662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Core\Libraries">
+      <UniqueIdentifier>{d9c706b3-b242-4709-8334-aa9d77166084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Core\Core Engine">
+      <UniqueIdentifier>{d29067e4-18f9-4d2b-bd1b-168e2f3ebcfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Core\Libraries\Event Engine">
+      <UniqueIdentifier>{f8e862d6-94bf-4921-9ed2-b114b35a507d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Core\Libraries\Event Engine\Core">
+      <UniqueIdentifier>{8c59e16f-44f3-44f0-83d8-5033b81c2bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Core\Libraries\Event Engine\Interface">
+      <UniqueIdentifier>{986bbf8d-25d8-481f-b8bd-62215571f109}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Jnx_Threading_Lib.h">
+      <Filter>Resources\Utility\Libraries\Threading Engine\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Threading_Engine_Window.cpp">
+      <Filter>Resources\Utility\Libraries\Threading Engine\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread_Engine.cpp">
+      <Filter>Resources\Utility\Libraries\Threading Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Jnx_Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IJnx_Engine.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>Resources\Rendering\Rendering Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="IEventHandler.h">
+      <Filter>Resources\Core\Libraries\Event Engine\Interface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Thread_Engine.h">
+      <Filter>Resources\Utility\Libraries\Threading Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Jnx_Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IRender.h">
+      <Filter>Resources\Rendering\Rendering Engine\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>Resources\Rendering\Rendering Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Jnx_Graphics_Lib.h">
+      <Filter>Resources\Rendering\Libraries\Graphics Engine</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
